@@ -1,13 +1,46 @@
-.navbar-brand {
+body {
+  margin: 111px;
+  padding-top: 110px;
+}
+  
+  .navbar {
+    background-color: orangered;
+  }
+  .navbar-brand {
     padding: 0px;
   }
+
   .navbar-brand>img {
     height: 100%;
-    padding: 15px;
-    width: auto;
+    padding: 1px;
+    width: 299px;
+}
+.mb-5, .my-5 {
+  margin-bottom: 2rem!important;
+}
+
+  .logo {
+    width: 30px;
+    height: 30px;
   }
-  .example3 .navbar-toggle {
-    padding: 10px;
-    margin: 25px 15px 25px 0;
-  }
+
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 50px;
+}
+.btn-group {
+  width: 511px;
+  margin-left: 85px;
   
+}
+
+.btn-outline-primary {
+    color: #000000;
+    border-color: #000000;
+}
+
+ 
